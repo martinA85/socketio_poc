@@ -1,0 +1,26 @@
+{
+  "name": "socketio_poc_back",
+  "version": "1.0.0",
+  "description": "POC on socket.io chat server-side",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/martinA85/socketio_poc.git"
+  },
+  "author": "Martin Allimonier <martin@noosys.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martinA85/socketio_poc/issues"
+  },
+  "homepage": "https://github.com/martinA85/socketio_poc#readme",
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  }
+}
